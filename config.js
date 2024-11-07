@@ -8,16 +8,16 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Qᴜᴇᴇɴ ᴀɴʏᴀ ᴠ2",
+    botname: process.env.BotName || "sithuwa-bot",
     footer: process.env.Footer || "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐐𝐮𝐞𝐞𝐧 𝐀𝐧𝐲𝐚 𝐁𝐨𝐭",
     prefa: process.env.Prefix || "-",
-    themeemoji: process.env.ThemeEmoji || "🎐",
+    themeemoji: process.env.ThemeEmoji || "☠",
 
     /**
      * owner details and parameters
      */
-    ownername: process.env.Owner_Name || "Pika~Kun",
-    ownernumber: process.env.Owner_Number || "916900904828",
+    ownername: process.env.Owner_Name || "sithuwa",
+    ownernumber: process.env.Owner_Number || "0752902163",
     instagramId: process.env.Insta || "3.69_pika",
 
     /**
@@ -29,7 +29,7 @@ module.exports = {
     groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
-    mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
+    mongoUrl: process.env.MongoDB || "mongodb+srv://nilaweeraoshadha:i2cQACRemSueI9YE@cluster0.tmn7y.mongodb.net/",
     sessionId: process.env.SESSION_ID || "YOUR_SESSION_ID",
 
     /**
